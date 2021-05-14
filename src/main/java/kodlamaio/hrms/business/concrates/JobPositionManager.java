@@ -22,7 +22,7 @@ public class JobPositionManager implements JobPositionService {
 	}
 
 	@Override
-	public List<JobPosition> getaAll() {
+	public List<JobPosition> getAll() {
 		return this.jobPositionDao.findAll();
 	}
 	
