@@ -6,5 +6,5 @@ import kodlamaio.hrms.entities.concrates.JobPosition;
 
 public interface JobPositionService {
 	
-	List<JobPosition> getaAll();
+	List<JobPosition> getAll();
 }
